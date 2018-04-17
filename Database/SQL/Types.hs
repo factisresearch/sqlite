@@ -52,6 +52,8 @@ module Database.SQL.Types
        , PrettySQL(..)
        ) where
 
+
+import Prelude hiding ((<>))
 import Data.List ( intersperse )
 import Text.PrettyPrint.HughesPJ
 
